@@ -1,0 +1,20 @@
+Genere de la documentation sur le code de spip en examinant les fichiers des plugins, puis insere ces informations dans une base de donnée SPIP pour ceer le site de documentation
+automatiquement.
+Exemple:
+http://www.codes-libres.org/visual/
+
+voir aussi:
+http://www.codes-libres.org/blog/?Visual-SPIP-le-code-des-plugins
+
+La commande tree doit etre installee pour ce script.
+Les plugins a installer sur SPIP:
+Article PDF
+Imprimer document 2
+Couteau suisse et ces lames : sommaire automatique, 
+
+Licence GPL v3
+Auteur: Nicolas Villa -> Boyquotes
+
+Ce programme est un logiciel libre ; vous pouvez le redistribuer et/ou le modifier conformement aux dispositions de la Licence Publique Generale GNU.
+http://www.gnu.org/licenses/quick-guide-gplv3.fr.html
+CC-By-SA
