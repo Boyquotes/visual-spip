@@ -1,0 +1,1 @@
+/var/www/clients/client1/web2/vs-dev/console/plugin.xml

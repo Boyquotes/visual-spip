@@ -1,0 +1,2 @@
+/var/www/clients/client1/web2/vs-dev/console/console.html
+/var/www/clients/client1/web2/vs-dev/console/logs.html
