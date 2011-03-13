@@ -1,7 +1,0 @@
-/var/www/clients/client1/web2/vs-dev/console/console_boutons.php
-/var/www/clients/client1/web2/vs-dev/console/console_options.php
-/var/www/clients/client1/web2/vs-dev/console/exec/console_ahah.php
-/var/www/clients/client1/web2/vs-dev/console/exec/console.php
-/var/www/clients/client1/web2/vs-dev/console/exec/console_popup.php
-/var/www/clients/client1/web2/vs-dev/console/exec/spiplog.php
-/var/www/clients/client1/web2/vs-dev/console/inc/console.php
