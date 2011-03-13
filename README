@@ -6,11 +6,11 @@ http://www.codes-libres.org/visual/
 voir aussi:
 http://www.codes-libres.org/blog/?Visual-SPIP-le-code-des-plugins
 
-La commande tree doit etre installee pour ce script.
+La commande tree doit etre installee sur le serveur pour obtenir l arborescence du code a parser.
 Les plugins a installer sur SPIP:
 Article PDF
 Imprimer document 2
-Couteau suisse et ces lames : sommaire automatique, 
+Couteau suisse et sa lame : sommaire automatique
 
 Exemple utilisation:
 pour un plugin console dans /var/www/clients/client1/web2/vs-dev
