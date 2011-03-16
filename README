@@ -24,6 +24,8 @@ rep_antislash="\/var\/www\/clients\/client1\/web2\/vs-dev\/"
 Le point de lancement du script est 
 ./lancement2.sh c
 
+Il y a 2 variables save et nettoyer qui permettent respectivement de sauvegarder la base spip avant le lancement du script et de supprimer les fichiers temporaires utilises par le script, ces fichiers sont utiles pour voir si le script se déroulent bien , mettre a 0 pour les obtenir
+
 Licence GPL v3
 Auteur: Nicolas Villa -> Boyquotes
 
