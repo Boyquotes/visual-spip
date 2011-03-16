@@ -15,7 +15,7 @@ echo 1 > ./j
 echo "0" > ./rub
 echo "2" > ./num
 
-
+nettoyer="0"
 prendre=$1
 #echo $prendre
 source init-save.sh
@@ -73,3 +73,13 @@ cat tmp/repi0.txt  | grep -v "#" >> tmp/repisql.txt
 
 ./php2html.sh $rep && ./html2php.sh && ./php2sql.sh $rep_script
 
+if [ ${nettoyer:-0} = "1" ]
+then
+rm -rf ./html
+rm -rf ./tmp
+rm -rf ./sql
+
+rm -rf ./j
+rm -rf ./rub
+rm -rf ./num
+fi
