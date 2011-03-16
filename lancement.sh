@@ -16,9 +16,9 @@ echo "0" > ./rub
 echo "2" > ./num
 
 save="0"
-nettoyer="1"
+nettoyer="0"
 prendre=$1
-#echo $prendre
+
 if [ ${save:-0} = 1 ]
 then
 source init-save.sh

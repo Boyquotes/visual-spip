@@ -69,8 +69,10 @@ ls sql/page-$line-[0-9][0-9][0-9][0-9].*sql >> ./tmp/repohtml.sql
 ls sql/page-$line-[0-9][0-9][0-9][0-9][0-9].*sql >> ./tmp/repohtml.sql
 done < tmp/repisql.txt
 
-#mysql -u visual --password="FRghG34j56"  visual < $1/erase.sql
+#Vider la table avant reimport
+mysql -u spipvisual --password="spipvisual"  spipvisual < $1/erase.sql
 
+#Importer tous les nouveaux articles
 while read line
 do
 mysql -u spipvisual --password="spipvisual"  spipvisual < $line
